@@ -26,15 +26,9 @@ After searching the SHA256 hash in VirusTotal, the file appears to be **maliciou
 
 ## 🚨 Indicators of Compromise (IoCs)
 
-### 1. Hash Value
-MD5
-287d612e29b71c90aa54947313810a25
-
-### 2. IP Address
-104.115.151.81
-
-### 3. Domain / Host Artifact / TTP
-a.sinkhole.yourtrap.com
+- **Hash (MD5):** 287d612e29b71c90aa54947313810a25  
+- **IP Address:** 104.115.151.81  
+- **Domain / Artifact:** a.sinkhole.yourtrap.com
 
 ---
 
@@ -53,5 +47,5 @@ a.sinkhole.yourtrap.com
 
 ## 🧠 Conclusion
 
-The file is confirmed to be malicious based on multiple detection sources and associated indicators of compromise.  
-This analysis demonstrates the use of VirusTotal and threat intelligence to support SOC investigation workflows.
+The file was confirmed to be malicious based on multiple vendor detections, behavioral indicators, and associated network activity.
+This analysis demonstrates how threat intelligence platforms like VirusTotal can support SOC analysts in malware triage and incident response workflows.
